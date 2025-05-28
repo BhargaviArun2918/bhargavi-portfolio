@@ -1,0 +1,49 @@
+baseURL = 'https://github.com/bhargaviarun2918'
+languageCode = 'en-us'
+title = 'Bhargavi | Performance Engineer'
+theme = "PaperMod"
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Bhargavi Selvam"
+  description = "Performance Engineer | Kafka | JMeter | Python"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  disableSpecial1stPost = true
+  ShowToc = true
+
+[params.profileMode]
+  enabled = true
+  title = "Hi, I'm Bhargavi 👋"
+  subtitle = "Performance Engineer | Kafka | JMeter | Python"
+  imageUrl = "profile.jpg"
+  imageTitle = ""
+  buttons = [
+    { name = "About", url = "/about/" },
+    { name = "Projects", url = "/projects/" },
+    { name = "Resume", url = "/resume/" }
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
